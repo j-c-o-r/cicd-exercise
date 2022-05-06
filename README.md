@@ -18,8 +18,7 @@ This code will allow to deploy the webapp in Azure CloudShell and deploy the web
 
 How to run the project:
 1. Clone the project in Azure cloud shell:
-
-_git clone git@github.com:j-c-o-r/cicd-exercise.git_
+```git clone git@github.com:j-c-o-r/cicd-exercise.git ```
 
 ![image](https://user-images.githubusercontent.com/40064297/167175829-4b286b92-6e5d-4c42-b4e8-72c0fea7eb0c.png)
 

@@ -1,9 +1,9 @@
 # Overview
 
-Build a CI/CD pipeline
+This source code is an exercise with the goal to deploy a flask app to predict housing prices in boston. The focus is on the ci/cd and not on the flask app itself, which was given as starter code.
+This code will allow to deploy the webapp in Azure CloudShell and deploy the webapp as an azure service. The code contains a "github actions" workflow, but was also created a azure DevOps pipeline 
 
 ## Project Plan
-<TODO: Project Plan
 
 * A link to a Trello board for the project
 * A link to a spreadsheet that includes the original and final project plan>

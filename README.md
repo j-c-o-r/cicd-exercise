@@ -10,6 +10,29 @@ This code will allow to deploy the webapp in Azure CloudShell and deploy the web
 
 ## Instructions
 
+
+How to run the project:
+1. Clone the project in Azure cloud shell:
+
+_git clone git@github.com:j-c-o-r/cicd-exercise.git_
+
+![image](https://user-images.githubusercontent.com/40064297/167175829-4b286b92-6e5d-4c42-b4e8-72c0fea7eb0c.png)
+
+2. source the virtual environment:
+source ~/cicd-exercise/bin/activate
+
+3. run make all to run the Makefile steps
+This will install all dependencies in the virtual environment
+
+![image](https://user-images.githubusercontent.com/40064297/167176648-580adaca-9e34-4e96-a5f9-9078ef50d226.png)
+
+
+4. start the application:
+python app.py
+
+5. do a prediction. 
+
+
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
 
@@ -17,9 +40,6 @@ This code will allow to deploy the webapp in Azure CloudShell and deploy the web
 
 * Project running on Azure App Service
 
-* Project cloned into Azure Cloud Shell
-
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
 
 * Output of a test run
 

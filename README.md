@@ -5,8 +5,8 @@ This code will allow to deploy the webapp in Azure CloudShell and deploy the web
 
 ## Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* trelo board: https://trello.com/b/LSFC9HFg/building-a-ci-cd-pipeline
+* project plan spreadsheet: 
 
 ## Instructions
 

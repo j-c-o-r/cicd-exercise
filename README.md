@@ -8,6 +8,11 @@ This code will allow to deploy the webapp in Azure CloudShell and deploy the web
 * trelo board: https://trello.com/b/LSFC9HFg/building-a-ci-cd-pipeline
 * project plan spreadsheet: https://github.com/j-c-o-r/cicd-exercise/blob/main/project-plan.xlsx
 
+
+## Architectural Diagram
+
+![image](https://user-images.githubusercontent.com/40064297/167179700-41ec175c-6191-4087-9729-9fca72c201a0.png)
+
 ## Instructions
 
 
@@ -31,10 +36,12 @@ This will install all dependencies in the virtual environment
 python app.py
 
 5. do a prediction. 
+ ./make_prediction.sh
 
+5.1 if prediction fails with permission denied, give permissions with chmod command:
+chmod 777 ./make_prediction.sh
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+ 
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 

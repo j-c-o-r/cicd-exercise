@@ -34,11 +34,17 @@ This will install all dependencies in the virtual environment
 4. start the application:
 ```python app.py```
 
-5. do a prediction. 
+![image](https://user-images.githubusercontent.com/40064297/167180627-b5b40a52-5e5e-4dda-a16c-a879ec3b2442.png)
+
+
+5. do a prediction: 
+ open a separate cloudShell whill app.py is running and run:
  ```./make_prediction.sh```
 
 5.1 if prediction fails with permission denied, give permissions with chmod command:
 ```chmod 777 ./make_prediction.sh```
+![image](https://user-images.githubusercontent.com/40064297/167180767-0d6276ef-2a9a-42bd-9d57-18d3d5f33bf3.png)
+
 
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).

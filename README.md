@@ -23,31 +23,23 @@ How to run the project:
 ![image](https://user-images.githubusercontent.com/40064297/167175829-4b286b92-6e5d-4c42-b4e8-72c0fea7eb0c.png)
 
 2. source the virtual environment:
-source ~/cicd-exercise/bin/activate
+```source ~/cicd-exercise/bin/activate```
 
-3. run make all to run the Makefile steps
+3. run ```make all``` to run the Makefile steps
 This will install all dependencies in the virtual environment
 
 ![image](https://user-images.githubusercontent.com/40064297/167176648-580adaca-9e34-4e96-a5f9-9078ef50d226.png)
 
 
 4. start the application:
-python app.py
+```python app.py```
 
 5. do a prediction. 
- ./make_prediction.sh
+ ```./make_prediction.sh```
 
 5.1 if prediction fails with permission denied, give permissions with chmod command:
-chmod 777 ./make_prediction.sh
+```chmod 777 ./make_prediction.sh```
 
- 
-
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
-
-* Project running on Azure App Service
-
-
-* Output of a test run
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 

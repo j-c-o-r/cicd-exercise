@@ -27,7 +27,8 @@ git clone git@github.com:j-c-o-r/cicd-exercise.git
 2. source the virtual environment:
 
 ```bash
-source ~/cicd-exercise/bin/activate```
+source ~/cicd-exercise/bin/activate
+```
 
 3. run ```make all``` to run the Makefile steps
 
@@ -39,7 +40,8 @@ This will install all dependencies in the virtual environment
 4. start the application:
 
 ```bash
-python app.py```
+python app.py
+```
 
 ![image](https://user-images.githubusercontent.com/40064297/167180627-b5b40a52-5e5e-4dda-a16c-a879ec3b2442.png)
 
@@ -48,12 +50,15 @@ python app.py```
 
 open a separate cloudShell whill app.py is running and run:
 
-```bash./make_prediction.sh```
+```bash
+./make_prediction.sh
+```
 
 5.1 if prediction fails with permission denied, give permissions with chmod command:
 
 ```bash
-chmod 777 ./make_prediction.sh```
+chmod 777 ./make_prediction.sh
+```
 
 ![image](https://user-images.githubusercontent.com/40064297/167180767-0d6276ef-2a9a-42bd-9d57-18d3d5f33bf3.png)
 

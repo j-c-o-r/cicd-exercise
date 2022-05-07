@@ -48,7 +48,7 @@ python app.py
 
 5. do a prediction: 
 
-open a separate cloudShell whill app.py is running and run:
+open a separate cloudShell while app.py is running, and run:
 
 ```bash
 ./make_prediction.sh

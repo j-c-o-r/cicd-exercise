@@ -64,9 +64,22 @@ chmod 777 ./make_prediction.sh
 
 
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
-* Running Azure App Service from Azure Pipelines automatic deployment
+
+
+
+6.Deploy the project with Azure DevOps (oficial documentation [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops):
+    a. Go to azure DevOps
+    b. Run the pipeline to deploy the project 
+![image](https://user-images.githubusercontent.com/40064297/167246719-2da1a30d-e06b-4fce-98b4-23b1883621b6.png)
+
+
+7. access the newly created application through the browser:
+![image](https://user-images.githubusercontent.com/40064297/167246782-89340018-2863-4ea3-9e29-b5b4d63e4154.png)
+
+```bash
+https://flask-exercise-service.azurewebsites.net/
+```
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:

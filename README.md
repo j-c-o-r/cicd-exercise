@@ -87,7 +87,6 @@ https://flask-exercise-service.azurewebsites.net/
 ./make_predict_azure_app.sh
 ```
 once again, if needed, change the permission of that file with chmod
-![image](https://user-images.githubusercontent.com/40064297/167247031-6a561cfe-b17c-4ab7-8482-8fe439c30170.png)
 
 output:
 

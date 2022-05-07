@@ -18,31 +18,43 @@ This code will allow to deploy the webapp in Azure CloudShell and deploy the web
 
 How to run the project:
 1. Clone the project in Azure cloud shell:
-```git clone git@github.com:j-c-o-r/cicd-exercise.git ```
+```bash
+git clone git@github.com:j-c-o-r/cicd-exercise.git 
+```
 
 ![image](https://user-images.githubusercontent.com/40064297/167175829-4b286b92-6e5d-4c42-b4e8-72c0fea7eb0c.png)
 
 2. source the virtual environment:
-```source ~/cicd-exercise/bin/activate```
+
+```bash
+source ~/cicd-exercise/bin/activate```
 
 3. run ```make all``` to run the Makefile steps
+
 This will install all dependencies in the virtual environment
 
 ![image](https://user-images.githubusercontent.com/40064297/167176648-580adaca-9e34-4e96-a5f9-9078ef50d226.png)
 
 
 4. start the application:
-```python app.py```
+
+```bash
+python app.py```
 
 ![image](https://user-images.githubusercontent.com/40064297/167180627-b5b40a52-5e5e-4dda-a16c-a879ec3b2442.png)
 
 
 5. do a prediction: 
- open a separate cloudShell whill app.py is running and run:
- ```./make_prediction.sh```
+
+open a separate cloudShell whill app.py is running and run:
+
+```bash./make_prediction.sh```
 
 5.1 if prediction fails with permission denied, give permissions with chmod command:
-```chmod 777 ./make_prediction.sh```
+
+```bash
+chmod 777 ./make_prediction.sh```
+
 ![image](https://user-images.githubusercontent.com/40064297/167180767-0d6276ef-2a9a-42bd-9d57-18d3d5f33bf3.png)
 
 

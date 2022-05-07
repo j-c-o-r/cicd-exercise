@@ -75,24 +75,30 @@ chmod 777 ./make_prediction.sh
 
 
 7. access the newly created application through the browser:
+
 ![image](https://user-images.githubusercontent.com/40064297/167246782-89340018-2863-4ea3-9e29-b5b4d63e4154.png)
 
 ```bash
 https://flask-exercise-service.azurewebsites.net/
 ```
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
+9. do a prediction with 
 ```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
+./make_predict_azure_app.sh
 ```
+once again, if needed, change the permission of that file with chmod
+![image](https://user-images.githubusercontent.com/40064297/167247031-6a561cfe-b17c-4ab7-8482-8fe439c30170.png)
 
-* Output of streamed log files from deployed application
+output:
 
-> 
+![image](https://user-images.githubusercontent.com/40064297/167246980-05bacf4d-86a5-4042-ad6f-173fd20adc3d.png)
+
+10. Checking the log files:
+ ```bash
+ az webapp log tail --name flask-exercise-service -g jcor_19_rg_0749
+ ```
+ 
+ ![image](https://user-images.githubusercontent.com/40064297/167247197-44361ee9-1d11-464a-bd6d-9ac9c8245d40.png)
 
 ## Enhancements
 

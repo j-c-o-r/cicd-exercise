@@ -7,6 +7,7 @@ This code will allow to deploy the webapp in Azure CloudShell and deploy the web
 
 * trelo board: https://trello.com/b/LSFC9HFg/building-a-ci-cd-pipeline
 * project plan spreadsheet: https://github.com/j-c-o-r/cicd-exercise/blob/main/project-plan.xlsx
+* link to demo video: https://youtu.be/vY2UKMiSpn8
 
 
 ## Architectural Diagram
@@ -101,10 +102,10 @@ output:
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+Enhancements can be done in two major directions: performance and stability. DevOps pipeline is taking a while to complete so an effort can be done to improve the deployment. 
+On stability we can work on improving tests, since there are only a dew demo tests in place for the purpose of this demo
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
-
+https://youtu.be/vY2UKMiSpn8
 

@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/j-c-o-r/cicd-exercise/actions/workflows/main.yml/badge.svg)](https://github.com/j-c-o-r/cicd-exercise/actions/workflows/main.yml)
+
 # Overview
 
 This source code is an exercise with the goal to deploy a flask app to predict housing prices in boston. The focus is on the ci/cd and not on the flask app itself, which was given as starter code.

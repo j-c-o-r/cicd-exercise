@@ -101,6 +101,15 @@ output:
  ```
  
  ![image](https://user-images.githubusercontent.com/40064297/167247197-44361ee9-1d11-464a-bd6d-9ac9c8245d40.png)
+ 
+ 11. Do some load test with locust
+    - install locust: ```pip install locust```
+    - lauch the app: ``` python app.py``
+    - in separate shell start locust ```locust```
+
+
+
+
 
 ## Enhancements
 

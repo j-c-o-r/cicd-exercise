@@ -5,4 +5,4 @@ class WebsiteTestUser(HttpUser):
 
     @task(1)
     def test1(self):
-        self.client.get()
+        self.client.get("/")

@@ -71,7 +71,7 @@ chmod 777 ./make_prediction.sh
 
 
 
-6.Deploy the project with Azure DevOps (oficial documentation [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops):
+6.Deploy the project with Azure DevOps (official documentation [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops):
     a. Go to azure DevOps
     b. Run the pipeline to deploy the project 
 ![image](https://user-images.githubusercontent.com/40064297/167246719-2da1a30d-e06b-4fce-98b4-23b1883621b6.png)

@@ -104,8 +104,24 @@ output:
  
  11. Do some load test with locust
     - install locust: ```pip install locust```
-    - lauch the app: ``` python app.py``
-    - in separate shell start locust ```locust```
+    - lauch the app: ```python app.py```
+    - in separate shell start locust ```locust -P 89090```
+
+here you can configure your load test:
+![image](https://user-images.githubusercontent.com/40064297/167457656-af93ef30-d680-4008-ab1e-e99d08724ce2.png)
+
+and check the report after run:
+![image](https://user-images.githubusercontent.com/40064297/167457744-d2aa0b4e-34dd-4697-9c7a-0ff64b5305e5.png)
+
+the report is also available in command line on exit:
+![image](https://user-images.githubusercontent.com/40064297/167457868-c29572e0-5d4f-452a-8f08-2281076e8751.png)
+
+
+
+
+
+
+
 
 
 
